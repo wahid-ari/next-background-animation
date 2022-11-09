@@ -225,8 +225,8 @@ body {
 }
 
 .lines {
-	--right: #006cfa;
-	--left: #00ff95;
+	--right: #00abfa;
+	--left: #ffd000;
 	position: absolute;
 	width: 190vw;
 	margin-left: -50%;
@@ -252,4 +252,76 @@ body {
 	inset: -100% 0px;
 	background-position-y: 100%;
 	mask-position: 50% 0px;
+	animation: go-up 60s linear infinite;
+}
+
+
+@media (min-width: 1024px) {
+  .lines {
+    animation-duration: 30s;
+    mask-size: 80px 80px;
+  }
+}
+
+:global(.dark) .lines {
+  --right: #4c2638;
+  --left: #223b67;
+}
+
+@keyframes go-up {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(calc(50% + 28px));
+  }
+}
+
+.pulse::before {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  animation: pulse-frames ease-out 8s infinite;
+  animation-delay: 0s;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 45%,
+      var(--pulse-color) 50%,
+      rgba(0, 0, 0, 0) 90%
+    )
+    no-repeat;
+  z-index: 211;
+  animation-delay: var(--delay);
+}
+
+@keyframes pulse-frames {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(200%);
+  }
+  100% {
+    transform: translateY(200%);
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .lines {
+    animation: none;
+  }
+  .pulse::before {
+    animation: none;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .lines {
+    animation: none;
+  }
+  .pulse::before {
+    animation: none;
+  }
 }
