@@ -17,6 +17,7 @@ export default function MobileNav() {
           <LinkScroll
             activeClass="active"
             to="home"
+            href="/#home"
             spy={true}
             smooth={true}
             duration={1000}
@@ -40,6 +41,7 @@ export default function MobileNav() {
           <LinkScroll
             activeClass="active"
             to="lokasi"
+            href="/#lokasi"
             spy={true}
             smooth={true}
             duration={1000}
@@ -63,6 +65,7 @@ export default function MobileNav() {
           <LinkScroll
             activeClass="active"
             to="galeri"
+            href="/#galeri"
             spy={true}
             smooth={true}
             duration={1000}
