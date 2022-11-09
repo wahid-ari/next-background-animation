@@ -44,7 +44,8 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="w-full h-screen flex items-center justify-center mb-16">
+          <section className="relative w-full h-screen flex items-center justify-center pb-16">
+            <span className="absolute bottom-0 z-[5] w-full h-48 bg-gradient-to-t from-black to-transparent" />
             <Gradient
               width={1000}
               height={500}
