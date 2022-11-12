@@ -37,11 +37,84 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="pattern" className="relative w-full h-screen flex items-center justify-center mb-16">
-            <span className="absolute top-0 left-0 right-0 w-full h-48 bg-gradient-to-b from-black to-transparent" />
-            <div className="z-10 text-white">
+          <section id="pattern" className="relative w-full h-screen flex items-center justify-center ">
+            <span className="absolute top-0 left-0 right-0 w-full h-24 bg-gradient-to-b from-black to-transparent" />
+            <span className="absolute bottom-0 z-10 left-0 right-0 w-full h-24 bg-gradient-to-t from-black to-transparent" />
+            <div className="z-20 text-white">
               PATTERN
             </div>
+          </section>
+
+          <section id="patterns" className="relative w-full h-full min-h-screen flex items-center justify-center mb-24 sm:pt-16 md:pt-0">
+            <FadeIn className="z-10 mt-8 sm:mt-40 md:mt-0 md:flex justify-center md:gap-16 space-y-8 sm:space-y-12 md:space-y-0 w-full">
+              <div className="w-full h-[180px] md:w-1/6 relative flex items-center justify-center">
+                <div className="absolute z-10 min-w-[550px] min-h-[550px] md:min-w-[600px] md:min-h-[600px]">
+                  <Image
+                    alt="Turborepo"
+                    src="/pack-hexagons.svg"
+                    fill="true"
+                  // className="block"
+                  />
+                </div>
+                <div className="absolute z-10 flex items-center justify-center w-64 h-64">
+                  <Gradient
+                    small
+                    width={120}
+                    height={120}
+                    conic
+                    className="opacity-100"
+                  />
+                </div>
+                <div className="w-[150px] h-[150px] z-10">
+                  <Image
+                    alt=""
+                    src={`/pack-logo.svg`}
+                    fill="true"
+                  // className="block"
+                  />
+                </div>
+              </div>
+              <div className="w-full h-[180px] md:w-1/6 flex items-center justify-center">
+                <h1 className="text-6xl sm:text-8xl text-transparent font-bold bg-clip-text bg-gradient-to-r from-yellow-500 to-sky-600">
+                  {/* <span className={eb.className}>&</span> */}
+                  &
+                </h1>
+              </div>
+              <div className="w-full h-[180px] md:w-1/6 relative flex items-center justify-center">
+                <div className="absolute min-w-[550px] min-h-[550px] md:min-w-[600px] md:min-h-[600px]">
+                  <Image
+                    alt="Turborepo"
+                    src="/pack-hexagons.svg"
+                    fill="true"
+                    className="block"
+                  />
+                </div>
+                <div className="absolute z-10 flex items-center justify-center w-64 h-64">
+                  <Gradient
+                    small
+                    width={120}
+                    height={120}
+                    conic
+                    className="opacity-100"
+                  />
+                </div>
+                <div className="w-[150px] h-[150px] z-10">
+                  <Image
+                    alt=""
+                    src={`/pack-logo.svg`}
+                    fill="true"
+                    className="block"
+                  />
+                </div>
+              </div>
+            </FadeIn>
+            <Gradient
+              width={1000}
+              height={500}
+              className="top-[-20px] opacity-20 "
+              conic
+            />
+            <div className="absolute top-0 z-10 w-full h-24 from-black to-transparent bg-gradient-to-b" />
           </section>
 
           <section className="relative w-full h-screen flex items-center justify-center pb-16">
@@ -49,7 +122,7 @@ export default function Home() {
             <Gradient
               width={1000}
               height={500}
-              className="opacity-20"
+              className="top-32 opacity-20"
               conic
             />
             <div className="absolute top-0 z-[5] w-full h-48 from-black to-transparent bg-gradient-to-b" />
@@ -380,7 +453,7 @@ export default function Home() {
             <span className={cn(styles.rightLights, "opacity-100")} />
             <span className="absolute bottom-0 left-0 right-0 w-full h-48 bg-gradient-to-t from-black to-transparent" />
             <span className="bg-black absolute top-[10vh] left-0 right-0 w-full h-[30vh]" />
-            <span class="bg-gradient-to-b from-black to-transparent absolute top-[20vh] left-0 right-0 w-full h-[550vh]"></span>
+            <span className="bg-gradient-to-b from-black to-transparent absolute top-[20vh] left-0 right-0 w-full h-[550vh]"></span>
             <div className="container ![perspective:1000px]">
               <div className="absolute inset-0"
                 style={{

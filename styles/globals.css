@@ -69,6 +69,21 @@ body {
 		fixed 10px 10px / 20px 20px radial-gradient(#313131 1px, transparent 0);
 }
 
+#patterns {
+	width: 100%;
+	height: 100vh;
+	max-height: 900px;
+	background-size: cover;
+	position: relative;
+	background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0) 0%,
+			rgb(0, 0, 0) 700px
+		),
+		fixed 0 0 / 20px 20px radial-gradient(#313131 1px, transparent 0),
+		fixed 10px 10px / 20px 20px radial-gradient(#313131 1px, transparent 0);
+}
+
 #title {
 	background: linear-gradient(
 			0deg,
