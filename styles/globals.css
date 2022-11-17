@@ -58,6 +58,87 @@ body {
 	height: 100%;
 }
 
+#ripple {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../public/ripple.svg);
+	/* https://loading.io/background/ */
+}
+
+#particles {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../public/particles.svg);
+	/* https://loading.io/background/ */
+}
+
+#disk {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../public/disk.svg);
+	/* https://loading.io/background/ */
+}
+
+#spotlight {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../public/spotlight.svg);
+	/* https://loading.io/background/ */
+}
+
+#interstellar {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../public/interstellar.svg);
+	/* https://loading.io/background/ */
+}
+
+#speedline {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../public/speedline.svg);
+	/* https://loading.io/background/ */
+}
+
+#bars {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../public/bars.svg);
+	/* https://loading.io/background/ */
+}
+
+#lotus {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../public/lotus.svg);
+	/* https://loading.io/background/ */
+}
+
+#field {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../public/field.svg);
+	/* https://loading.io/background/ */
+}
+
 #pattern {
 	width: 100%;
 	height: 100vh;

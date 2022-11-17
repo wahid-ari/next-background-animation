@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgb(0,0,0); display: block; z-index: 1; position: relative; shape-rendering: auto;" width="500" height="350" preserveAspectRatio="xMidYMid" viewBox="0 0 500 350">
+<g transform=""><style type="text/css">
+  @keyframes ld-speed-dash {
+    0% { transform: translate(0,-715.3277807866851px); }
+    100% { transform: translate(0,715.3277807866851px); }
+  }
+  .ld.ld-speed-dash {
+    animation: ld-speed-dash 4.166666666666667s linear infinite;
+  }
+</style>
+  <g transform="translate(250,175)">
+    <g style="transform:rotate(45deg)">
+
+      <line x1="209.43554926015912" x2="209.43554926015912" y1="0" y2="-79.42889455865856" stroke="#0ea5e9" opacity="0.2" stroke-width="1" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -2.669559168925405s;animation-duration:10s"></line>
+      <line x1="3.5207514866218426" x2="3.5207514866218426" y1="0" y2="-98.32891810031852" stroke="#0ea5e9" opacity="0.2" stroke-width="1" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -0.26530170294065025s;animation-duration:10s"></line>
+      <line x1="-184.84419357924853" x2="-184.84419357924853" y1="0" y2="-102.1729464712713" stroke="#0ea5e9" opacity="0.2" stroke-width="2" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -1.2551617436970683s;animation-duration:15s"></line>
+      <line x1="-17.018235514937224" x2="-17.018235514937224" y1="0" y2="-91.67463287610734" stroke="#0ea5e9" opacity="0.2" stroke-width="3" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -1.0318686563437438s;animation-duration:10s"></line>
+      <line x1="-134.5162729173683" x2="-134.5162729173683" y1="0" y2="-90.71316823776306" stroke="#0ea5e9" opacity="0.2" stroke-width="2" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -0.7434940084883593s;animation-duration:10s"></line>
+      <line x1="6.489197840341077" x2="6.489197840341077" y1="0" y2="-96.39071088896597" stroke="#0ea5e9" opacity="0.2" stroke-width="3" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -1.1572532783112144s;animation-duration:15s"></line>
+      
+      <line x1="136.87392184464153" x2="136.87392184464153" y1="0" y2="-102.87554047481144" stroke="#F59E0B" opacity="0.2" stroke-width="4" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -2.3929301669089207s;animation-duration:15s"></line>
+      <line x1="148.48008928917284" x2="148.48008928917284" y1="0" y2="-41.64356072101736" stroke="#F59E0B" opacity="0.2" stroke-width="3" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -2.873906239380423s;animation-duration:15s"></line>
+      <line x1="32.17597277803031" x2="32.17597277803031" y1="0" y2="-72.10347159248465" stroke="#F59E0B" opacity="0.2" stroke-width="2" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -0.7839365242412669s;animation-duration:15s"></line>
+      <line x1="205.60196416108278" x2="205.60196416108278" y1="0" y2="-36.445523781525246" stroke="#F59E0B" opacity="0.2" stroke-width="1" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -2.9589360302406416s;animation-duration:15s"></line>
+      
+      <line x1="-171.03042266394507" x2="-171.03042266394507" y1="0" y2="-41.17913410620925" stroke="#10B981" opacity="0.2" stroke-width="1" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -1.4349712963231775s;animation-duration:10s"></line>
+      <line x1="-213.75216630123148" x2="-213.75216630123148" y1="0" y2="-85.94050610058653" stroke="#10B981" opacity="0.2" stroke-width="2" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -3.806906537312511s;animation-duration:10s"></line>
+      <line x1="-128.629916151591" x2="-128.629916151591" y1="0" y2="-75.14872091021704" stroke="#10B981" opacity="0.2" stroke-width="3" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -2.5467542544003803s;animation-duration:10s"></line>
+      <line x1="83.33695863257468" x2="83.33695863257468" y1="0" y2="-30.522575441002562" stroke="#10B981" opacity="0.2" stroke-width="4" stroke-linecap="round" class="ld ld-speed-dash" style="animation-delay: -0.4273262502208112s;animation-duration:10s"></line>
+
+      </g>
+  </g>
+</g>
+<style type="text/css">
+  @keyframes ld-speed-dash {
+    0% { transform: translate(0,-715.3277807866851px); }
+    100% { transform: translate(0,715.3277807866851px); }
+  }
+  .ld.ld-speed-dash {
+    animation: ld-speed-dash 4.166666666666667s linear infinite;
+  }
+</style></svg>

@@ -37,6 +37,69 @@ export default function Home() {
             </div>
           </section>
 
+          {/* https://loading.io/background/ */}
+          <section id="ripple" className="relative min-h-screen h-screen flex items-center justify-center">
+            <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
+              Ripple
+            </h1>
+          </section>
+
+          {/* https://loading.io/background/ */}
+          <section id="particles" className="relative min-h-screen h-screen flex items-center justify-center">
+            <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
+              Particles
+            </h1>
+          </section>
+
+          {/* https://loading.io/background/ */}
+          <section id="disk" className="relative min-h-screen h-screen flex items-center justify-center">
+            <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
+              Disk
+            </h1>
+          </section>
+          
+          {/* https://loading.io/background/ */}
+          <section id="spotlight" className="relative min-h-screen h-screen flex items-center justify-center">
+            <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
+              Spotlight
+            </h1>
+          </section>
+          
+          {/* https://loading.io/background/ */}
+          <section id="interstellar" className="relative min-h-screen h-screen flex items-center justify-center">
+            <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
+              Interstellar
+            </h1>
+          </section>
+          
+          {/* https://loading.io/background/ */}
+          <section id="speedline" className="relative min-h-screen h-screen flex items-center justify-center">
+            <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
+              Speedline
+            </h1>
+          </section>
+          
+          {/* https://loading.io/background/ */}
+          <section id="bars" className="relative min-h-screen h-screen flex items-center justify-center">
+            <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
+              Bars
+            </h1>
+          </section>
+          
+          {/* https://loading.io/background/ */}
+          <section id="lotus" className="relative min-h-screen h-screen flex items-center justify-center">
+            <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
+              Lotus
+            </h1>
+          </section>
+          
+          {/* https://loading.io/background/ */}
+          <section id="field" className="relative min-h-screen h-screen flex items-center justify-center">
+            <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
+              Field
+            </h1>
+          </section>
+
           <section id="pattern" className="relative w-full h-screen flex items-center justify-center ">
             <span className="absolute top-0 left-0 right-0 w-full h-24 bg-gradient-to-b from-black to-transparent" />
             <span className="absolute bottom-0 z-10 left-0 right-0 w-full h-24 bg-gradient-to-t from-black to-transparent" />
