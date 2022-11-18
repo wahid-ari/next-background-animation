@@ -63,6 +63,7 @@ body {
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	background-image: url(../public/ripple.svg);
 	/* https://loading.io/background/ */
 }
@@ -72,6 +73,7 @@ body {
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	background-image: url(../public/particles.svg);
 	/* https://loading.io/background/ */
 }
@@ -81,6 +83,7 @@ body {
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	background-image: url(../public/disk.svg);
 	/* https://loading.io/background/ */
 }
@@ -90,6 +93,7 @@ body {
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	background-image: url(../public/spotlight.svg);
 	/* https://loading.io/background/ */
 }
@@ -99,6 +103,7 @@ body {
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	background-image: url(../public/interstellar.svg);
 	/* https://loading.io/background/ */
 }
@@ -108,6 +113,7 @@ body {
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	background-image: url(../public/speedline.svg);
 	/* https://loading.io/background/ */
 }
@@ -117,6 +123,7 @@ body {
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	background-image: url(../public/bars.svg);
 	/* https://loading.io/background/ */
 }
@@ -126,6 +133,7 @@ body {
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	background-image: url(../public/lotus.svg);
 	/* https://loading.io/background/ */
 }
@@ -135,6 +143,7 @@ body {
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	background-image: url(../public/field.svg);
 	/* https://loading.io/background/ */
 }
