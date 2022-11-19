@@ -8,6 +8,7 @@ import { motion, useTime, useTransform, useMotionValue, useCycle } from "framer-
 import { FadeIn } from '@components/FadeIn';
 import { Gradient } from '@components/Gradient';
 import Image from 'next/image';
+import gradients from "../components/gradients.module.css";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -100,22 +101,57 @@ export default function Home() {
             </h1>
           </section>
 
-          <div className="Header_marquee">
-            <div className="Header_marquee_content">
-              <div className="w-full text-white flex flex-col gap-8 px-8 py-2">
-                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">1</div>
-                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">2</div>
-                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">3</div>
-                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">4</div>
-                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">5</div>
-                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">6</div>
-                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">7</div>
-                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">8</div>
-                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">9</div>
-                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">10</div>
+          <section className="min-h-screen flex items-center justify-center w-full">
+
+            <div className="Header_marquee w-full">
+              <div className="Header_marquee_content">
+                <div className="w-full text-white flex flex-col gap-8 px-8 py-2">
+                  <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">1</div>
+                  <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">2</div>
+                  <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">3</div>
+                  <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">4</div>
+                  <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">5</div>
+                  <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">6</div>
+                  <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">7</div>
+                  <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">8</div>
+                  <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">9</div>
+                  <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">10</div>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
+
+          <section className="relative min-h-screen w-full flex items-center justify-center overflow-hidden">
+            <FadeIn>
+              <span
+                className={cn(
+                  "w-full absolute h-[1px] top-0 left-0 opacity-25",
+                  gradients.gradientSectionBorderDivider
+                )}
+              />
+              <span
+                className={cn(
+                  gradients.gradientSectionBorder,
+                  gradients.gradientSectionBorderLeft,
+                  "opacity-[0.15]"
+                )}
+              />
+              <span
+                className={cn(
+                  gradients.gradientSectionBorder,
+                  gradients.gradientSectionBorderRight,
+                  "opacity-[0.15]"
+                )}
+              />
+            </FadeIn>
+            Border Glow
+            <Gradient
+              width={1200}
+              height={300}
+              className="bottom-[-200px] opacity-20"
+              conic
+            />
+          </section>
 
           <section id="pattern" className="relative w-full h-screen flex items-center justify-center ">
             <span className="absolute top-0 left-0 right-0 w-full h-24 bg-gradient-to-b from-black to-transparent" />
