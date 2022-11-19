@@ -57,48 +57,65 @@ export default function Home() {
               Disk
             </h1>
           </section>
-          
+
           {/* https://loading.io/background/ */}
           <section id="spotlight" className="relative min-h-screen h-screen flex items-center justify-center">
             <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
               Spotlight
             </h1>
           </section>
-          
+
           {/* https://loading.io/background/ */}
           <section id="interstellar" className="relative min-h-screen h-screen flex items-center justify-center">
             <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
               Interstellar
             </h1>
           </section>
-          
+
           {/* https://loading.io/background/ */}
           <section id="speedline" className="relative min-h-screen h-screen flex items-center justify-center">
             <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
               Speedline
             </h1>
           </section>
-          
+
           {/* https://loading.io/background/ */}
           <section id="bars" className="relative min-h-screen h-screen flex items-center justify-center">
             <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
               Bars
             </h1>
           </section>
-          
+
           {/* https://loading.io/background/ */}
           <section id="lotus" className="relative min-h-screen h-screen flex items-center justify-center">
             <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
               Lotus
             </h1>
           </section>
-          
+
           {/* https://loading.io/background/ */}
           <section id="field" className="relative min-h-screen h-screen flex items-center justify-center">
             <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
               Field
             </h1>
           </section>
+
+          <div className="Header_marquee">
+            <div className="Header_marquee_content">
+              <div className="w-full text-white flex flex-col gap-8 px-8 py-2">
+                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">1</div>
+                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">2</div>
+                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">3</div>
+                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">4</div>
+                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">5</div>
+                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">6</div>
+                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">7</div>
+                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">8</div>
+                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">9</div>
+                <div className="h-28 w-full border border-neutral-600 flex items-center justify-center">10</div>
+              </div>
+            </div>
+          </div>
 
           <section id="pattern" className="relative w-full h-screen flex items-center justify-center ">
             <span className="absolute top-0 left-0 right-0 w-full h-24 bg-gradient-to-b from-black to-transparent" />
