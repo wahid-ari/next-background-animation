@@ -564,7 +564,20 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="relative z-[1] h-screen w-screen ">
+          <section id="field-animate" className="relative min-h-screen h-screen flex items-center justify-center overflow-hidden">
+            <span className={cn(styles.leftLights, "opacity-100")} />
+            <span className={cn(styles.rightLights, "opacity-100")} />
+            {/* <span className="bg-red-500 absolute top-[10vh] left-0 right-0 w-full h-[30vh]" /> */}
+            <span className="bg-gradient-to-b from-black to-transparent absolute top-0 left-0 right-0 w-full h-[70vh]"></span>
+            <span className="absolute bottom-0 left-0 right-0 w-full h-64 bg-gradient-to-t from-black to-transparent" />
+            <div className="relative ">
+              <h1 className="font-extrabold text-center mb-10 sm:mb-20 text-4xl md:text-5xl p-4 bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA]">
+                Field
+              </h1>
+            </div>
+          </section>
+
+          <section className="relative z-[1] h-screen w-screen">
             <span className={cn(styles.leftLights, "opacity-100")} />
             <span className={cn(styles.rightLights, "opacity-100")} />
             <span className="absolute bottom-0 left-0 right-0 w-full h-48 bg-gradient-to-t from-black to-transparent" />
